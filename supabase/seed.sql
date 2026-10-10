@@ -1,0 +1,11 @@
+-- Fictional local demo data only.
+-- This file is illustrative: it does not create an auth.users account and should not
+-- be applied to a production project. For a local demo, create a test auth user first
+-- and replace the owner UUID below with that user's id.
+-- The UI can use packages/shared/src/mock-data.ts without database seed rows.
+
+-- Example template (uncomment and replace the UUID after creating a local auth user):
+-- insert into public.events (owner_id, name, venue, timezone, notes)
+-- values ('00000000-0000-4000-8000-000000000001',
+--         'AI Builders Summit', 'Demo venue', 'Asia/Kolkata',
+--         'Fictional seed event; not a real event.');
