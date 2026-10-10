@@ -4,8 +4,10 @@
   "version": "0.1.0",
   "packageManager": "pnpm@9.15.0",
   "scripts": {
+    "dev": "pnpm dev:web",
     "dev:web": "pnpm --filter @memdevos/web dev",
     "dev:mobile": "pnpm --filter @memdevos/mobile start",
+    "build": "pnpm build:web",
     "build:web": "pnpm --filter @memdevos/web build",
     "typecheck": "pnpm -r typecheck",
     "test": "vitest run"
