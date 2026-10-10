@@ -138,3 +138,6 @@ export interface CalendarRecord {
   endsAt?: ISODateTime;
   sourceConversationId?: UUID;
 }
+
+export * from "./memory-engine";
+
